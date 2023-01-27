@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+  }
+  #top-container {
+    overflow: hidden;
+    /* position: fixed; */
+    z-index: 999;
+    width: 100%;
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: 0;
+  }
+
+  #navbar {
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 23px 5px;
+  }
+
+  #logos {
+    width: 16%;
+  }
+  #us {
+    /* background-color: red; */
+    width: 16%;
+  }
+
+  .inp {
+    /* background-color: rgb(201, 50, 50); */
+    width: 28%;
+    display: flex;
+    border: 0.6px solid black;
+  }
+
+  #search {
+    padding: 10px;
+    width: 230%;
+    border: none;
+  }
+  button {
+    width: 25%;
+    margin-top: 5px;
+    background-color: rgb(174, 47, 47);
+    border: none;
+    background-color: white;
+  }
+  button:hover {
+    background-color: rgb(115, 111, 111);
+  }
+
+  #acc-log {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+  }
+  #acc-log > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 300px;
+  }
+  #acc-log > a > i {
+    font-size: 22px;
+    padding: 5px;
+  }
+  #mid {
+    /* height: 50px; */
+    margin-top: -5px;
+    background-color: white;
+    padding: 10px 80px;
+  }
+  #mid ul {
+    justify-content: space-evenly;
+    display: flex;
+    margin-right: 300px;
+    margin-top: -11px;
+    align-items: center;
+    height: 200%;
+    padding: 10px;
+    margin-bottom: -11px;
+    /* padding: 15px; */
+  }
+  #mid > ul li {
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    margin-top: -11px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    text-align: center;
+    /* border:1px solid red; */
+  }
+  #mid > ul li:hover {
+    background-color: black;
+    color: white;
+  }
+
+  #mid > ul a {
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    font-size: 14px;
+    color: rgb(115, 116, 116);
+    padding: 2px;
+  }
+  hr {
+    background-color: black;
+  }
+  #tt {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  #tt > a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+    width: 5%;
+    font-size: 14px;
+    font-family: "Lato-Light", Helvetica, Arial, sans-serif;
+  }
+
+  #redo {
+    display: flex;
+    text-align: center;
+    /* background-color: red; */
+    justify-content: center;
+    padding: 5px;
+  }
+  #redo > div {
+    text-align: center;
+    margin: 10px 20px;
+    padding: 5px;
+    /* background-color: teal; */
+  }
+  #redo > div > a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    padding: 5px;
+  }
+  #redo > div > i {
+    margin-left: 10px;
+  }
+  /* container*** */
+  #main-container {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 15px;
+    height: 100%;
+  }
+  #main-container > #worth {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+  }
+
+  #worth > a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+
+  /* footer**** */
+  /* footer  ***** */
+  #footer {
+    margin: 10px auto; 
+    width: 90%;
+    display: flex;
+  }
+
+  #footer > .info {
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+  }
+  #footer > .info > a {
+    color: rgb(163, 156, 156);
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .info > p {
+    padding: 5px;
+    margin-top: 15px;
+  }
+  .info > a > i {
+    padding: 10px;
+  }
+  #footer > .info > a > div {
+    width: 50%;
+    padding: 12px 10px;
+    margin-top: 2px;
+    margin-left: -5px;
+  }
+  #footer > .info > a > div:hover {
+    background-color: rgb(190, 189, 189);
+  }
+
+  #footer > .footer_p2 {
+    width: 50%;
+    display: flex;
+  }
+
+  .fhr {
+    /* margin: auto; */
+    width: 90%;
+  }
+  .f2hr {
+    width: 85%;
+  }
+
+  #footer > .footer_p2 > .about {
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+  }
+  #footer > .footer_p2 > .about > a {
+    color: rgb(163, 156, 156);
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .about > p {
+    padding: 5px;
+    /* margin-top: 15px; */
+    margin-top: 20px;
+  }
+  .footer_p2 > .about > a > i {
+    padding: 10px;
+  }
+  #footer > .footer_p2 > .about > a > div {
+    width: 75%;
+    padding: 12px 10px;
+    margin-top: 2px;
+    margin-left: -5px;
+  }
+  #footer > .footer_p2 > .about > a > div:hover {
+    background-color: rgb(190, 189, 189);
+  }
+  #thg {
+    width: 100%;
+    margin: 15px auto;
+    display: flex;
+    width: 90%;
+  }
+  #thg > .thg_child {
+    width: 50%;
+    padding: 5px;
+  }
+  #thg > .thg_child > p {
+    margin-left: 10px;
+  }
+
+  .bank {
+    width: 90%;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+
+  .infol {
+    text-decoration: none;
+    width: 90%;
+    color: rgb(77, 76, 76);
+    margin: 30px auto;
+  }
+  .infol > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .infol > a:hover {
+    color: rgb(119, 219, 199);
+    text-decoration: underline;
+  }
+
+  /* newthing **** */
+  #center {
+    /* background-color: teal; */
+    display: flex;
+  }
+  #center > #right {
+    /* background-color: red; */
+    width: 30%;
+    height: 100%;
+  }
+  #center>#left>h1{
+     font-size: 45px; 
+     margin: 10px 0;
+  }
+  #center>#right,#left>p{
+      color: rgb(133, 133, 133);
+  }
+  #center>#left>p:nth-child(3){
+      margin: 15px 0;
+      line-height: 1.5;
+      color: rgb(178, 178, 178);
+      
+  }
+  #center > #left {
+    /* background-color: yellow; */
+    width: 70%;
+    height: 100%;
+  }
+  #center>#left>select {
+      padding: 20px;
+      margin-top: 15px;
+      font-size: 20px;
+  }
+
+  #main_pro{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 15px;
+      float: right;
+      margin: 40px 5px;
+  }
+  
+  #main_pro>div{
+      /* border: 1px solid red; */
+      line-height: 1.4;
+      /* padding: auto; */
+      /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  }
+  #main_pro>div>img{
+      width: 100%;
+      opacity: 0.6;
+      margin-bottom: 20px;
+  }
+
+  #main_pro>div>h5{
+      border: 1px solid red;
+      width: 60%;
+      padding: 5px;
+      margin: 10px 0;
+      cursor: pointer;
+
+  }
+  #main_pro>div>button{
+      background-color: rgb(45, 45, 45);
+      padding: 15px;
+      width: 100%;
+      color: white;
+      margin-top: 10px;
+      cursor: pointer;
+  }
+  #main_pro>div>button:hover{
+      background-color: rgb(143, 143, 143);
+  }
+
+#main{
+    width: 60%;
+    /* height:500px; */
+    margin: auto;
+
+}
+
+.profile{
+    width: 9%;
+    margin-bottom: -90px;
+}
+.naam{
+    margin-left: 100px;
+    /* margin-top: 52px; */
+}
+/* .share{
+    margin-left: 800px;
+    margin-bottom: 20px
+} */
+#toppart{
+    display: flex;
+    width: 100%;
+    /* background-color: red; */
+    font-family:  serif;
+
+}
+#toppart>.left>h1{
+    font-size: 50px;
+}
+#toppart>.right,.left{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+#toppart>.right>img{
+    width: 100%;
+    height: 300px;
+}
+.product{
+    width: 60%;
+    margin:20px auto ;
+    color: rgb(88, 87, 87);
+    text-align: start;
+}
+.product>div{
+    margin-top: 50px;
+
+}
+.proName2{
+    color: black;
+}
+
+
+button{
+    border-radius: 10px;
+    height: 25px;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#cards{
+display: grid;
+width: 70%;
+margin:20px auto;
+grid-template-columns: repeat(4,1fr);
+gap: 15px;
+}
+#cards>Div{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+#cards>div>img{
+    width: 100%;
+}
+.profile2{
+    width: 90px;
+    margin-bottom: -90px;
+}
+.naam2{
+    margin-left: 100px;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    /* margin-top: 50px; */
+}
+.user>.name{
+    width: 35%;
+}
+.social{
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+  
+}
+.twiter{
+    width: 22px;
+    height: 20px;
+    /* margin-left: 20px; */
+}
+.facebook{
+    height: 17px;
+    width: 15px;
+}
+.whatsap{
+    height: 22px;
+    width: 22px;
+}
+.gmail{
+    height: 22px;
+    width: 17px;
+}
+
+
+/* middlecss ************** */
