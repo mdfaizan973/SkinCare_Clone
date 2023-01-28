@@ -3,14 +3,15 @@
 Hello EveryOne,
 # Name :- Md Faizan from Fw22 Batch at masai school. Student Code :- fw22_0210
 
-# WebSite Link :- https://skincares.netlify.app/
+# WebSite Link :- https://skincares2.netlify.app/
 # Discription :- This is the clone of SkinStore.com that , I did during my construct week at masai school.
 
 # Tech Stack : -{HTML, CSS, JS}
 
 
 # Landing Page
-![Screenshot (1016)](https://user-images.githubusercontent.com/106812942/215070720-1247bfce-25fd-4527-818e-9b658eec93f8.png)
+![Screenshot (1028)](https://user-images.githubusercontent.com/106812942/215109393-cfcfb68a-7de0-4554-9380-7d3b65e4f9b6.png)
+
 
 # Products Page
 ![Screenshot (1017)](https://user-images.githubusercontent.com/106812942/215070828-4296acb0-abaa-45ed-b4f9-ca26cff111fd.png)
