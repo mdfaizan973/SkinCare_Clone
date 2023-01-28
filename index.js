@@ -583,7 +583,7 @@ const display = (data) => {
 
   data.forEach((el) => {
     // console.log(el)
-
+    swal("hello");
     // document.querySelector('#pname').innerHTML=value
 
     let card = document.createElement("div");

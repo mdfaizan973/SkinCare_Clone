@@ -125,6 +125,8 @@ function cartplay() {
       count--;
       document.querySelector("span").innerHTML = count;
       localStorage.setItem("count", count);
+
+      swal("Your Product is deleted from the cart");
     });
 
     cartp.append(nm, off_btn, rate, price, hr, sh_btn, de_btn);

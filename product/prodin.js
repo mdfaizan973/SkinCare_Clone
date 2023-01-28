@@ -435,7 +435,9 @@ function display(arr) {
       lsdata.push(el);
 
       let ls = localStorage.setItem("Cart", JSON.stringify(lsdata));
-      console.log(ls);
+      // console.log(ls);
+      swal("Product added to cart 🛒");
+      console.log("faizan");
     });
 
     div.append(im, nm, off_btn, rate, price, sh_btn);
