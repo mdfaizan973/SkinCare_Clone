@@ -13,15 +13,16 @@ function signin() {
 
   if (loginEmail === userData.email) {
     if (password === userData.pass) {
+      swal("Signin Successfull 👍");
       alert("Signin Successfull 👍");
       location.href = "../index.html";
       // location.href='../HOME/index.html';
     } else {
-      // alert("Wrong Password ❌  or ❌ Account not found");
+      alert("Wrong Password ❌  or ❌ Account not found");
       swal("Wrong Password ❌  or ❌ Account not found");
     }
   } else {
-    // alert("Wrong Credentials ❌ or ❌ Register again");
+    alert("Wrong Credentials ❌ or ❌ Register again");
     swal("Wrong Credentials ❌ or ❌ Register again");
   }
 }
